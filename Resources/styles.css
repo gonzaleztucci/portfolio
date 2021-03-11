@@ -14,3 +14,9 @@ p {
 .logo {
     font-size: 40px;
 }
+
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
