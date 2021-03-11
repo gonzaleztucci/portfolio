@@ -1,0 +1,16 @@
+/* 
+font-family: 'Alegreya', serif;
+font-family: 'Bree Serif', serif;
+*/
+
+h1, h2, h3, a {
+    font-family: 'Bree Serif', serif;
+}
+
+p {
+    font-family: 'Alegreya', serif;
+}
+
+.logo {
+    font-size: 40px;
+}
