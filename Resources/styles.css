@@ -119,32 +119,48 @@ header{
 
 .project-gallery{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    align-content: space-evenly;
+    flex-wrap: wrap;
     width: 95%;
-    height: 400px;
     margin: 3rem auto 3rem auto;
     padding: 2rem;
     border: 1px solid black;
-    overflow: hidden;
+    
 }
 
 .project{
-    display: flex;
-    flex-direction: row;
-    align-content: flex-start;
+    /* display: flex;
+    flex-direction: column;
+    align-content: flex-start; */
     border: 1px solid black;
-    padding: 1rem;
-    width: 35%;
+    border-radius: 3px;
+    padding: 1.5rem;
+    width: 40%;
     height: auto;
+    overflow: hidden;
+    margin: 15px;
+    
+}
+
+.project p{
+    margin-bottom: 10px;
+    margin-top: 8px;
+
 }
 
 .project img{
-    width: 80%;
+    
+    width: 100%;
     height: auto;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 8px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
 
+.project i {
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 
