@@ -118,14 +118,17 @@ header{
 /* PROJECTS */
 
 .project-gallery{
+
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: column; */
     align-content: space-evenly;
     flex-wrap: wrap;
     width: 95%;
     margin: 3rem auto 3rem auto;
     padding: 2rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     
 }
 
@@ -133,13 +136,16 @@ header{
     /* display: flex;
     flex-direction: column;
     align-content: flex-start; */
-    border: 1px solid black;
+
+    border: 1px solid #A3B8C2;
     border-radius: 3px;
     padding: 1.5rem;
     width: 40%;
     height: auto;
     overflow: hidden;
     margin: 15px;
+    /* min-width: 200px; */
+    flex: 1 1 200px;
     
 }
 
