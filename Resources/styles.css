@@ -13,12 +13,28 @@ Colors:
 
 
 */
+html{
+    height: 100%;
+    width: 100%;
+}
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
+
+
+header, main, footer {
+    flex-shrink: 0; /*This changes the default behavior the
+                     items shrink if there is not enough space.
+                    The results can look very weird, e.g. a 
+                    button that is smaller than the text it contains.*/
+}  
 
 
 h1, h2, h3, a {
@@ -103,7 +119,7 @@ header{
 
 main {
 
-    
+    flex-grow: 1;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
