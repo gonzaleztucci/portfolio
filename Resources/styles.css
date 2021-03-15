@@ -13,6 +13,14 @@ Colors:
 
 
 */
+
+body {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
 h1, h2, h3, a {
     font-family: 'Bree Serif', serif;
 }
@@ -77,14 +85,10 @@ nav a:hover{
 
 /* Structure Desktop */
 
-body {
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
 
-}
 
 header{
+    width: 90%;
     border-bottom: 2px solid #003247;
     height: 100px;
     margin-right: auto;
@@ -96,6 +100,14 @@ header{
 }
 
 /* ABOUT ME */
+
+main {
+
+    
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .about-me{
     display: flex;
@@ -189,15 +201,19 @@ header{
 /* FOOTER */
 
 footer{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     border-top: 2px solid #003247;
-    padding: 2rem;
+
 }
 
 footer p{
 
     font-family: 'Bree Serif', serif;
     text-align: center;
-    color: #003247
+    color: #003247;
+    padding: 10px;
 
 
 }
