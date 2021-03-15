@@ -44,6 +44,7 @@ h1, h2, h3, a {
 h1 {
     font-size: 3.052em;
     color: #003247;
+    letter-spacing: 0.08em;
 }
 
 h2{
@@ -105,12 +106,15 @@ nav a:hover{
 
 header{
     width: 90%;
+    height: auto;
     border-bottom: 2px solid #003247;
-    height: 100px;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
     margin-right: auto;
     margin-left: auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;  
 }
@@ -138,6 +142,7 @@ main {
 .profile-pic{
     width: 20%;
     height: auto;
+    object-fit: contain;
     margin: 3rem 6rem 3rem 3rem;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -237,3 +242,19 @@ footer p{
 .fa-heart{
     color: #41A2CC;
 }
+
+/* MOBILE VERSION STYLES */
+
+
+@media (max-width: 600px) {
+
+    .header{
+        flex-direction: column;
+    }
+
+  }
+
+
+
+
+
