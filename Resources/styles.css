@@ -251,9 +251,6 @@ footer p{
 
 @media (max-width: 600px) {
 
-    body {
-        background-color: orange;
-    }
 
     /* HEADER */
     header{
@@ -304,9 +301,6 @@ footer p{
         grid-area: picture;
         width: 50%;
     }
-
-
-
 
 
 
