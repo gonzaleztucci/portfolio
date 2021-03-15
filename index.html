@@ -53,30 +53,40 @@
         </div>
         <div id="projects" class="block projects">
             <h2>Projects</h2>
-            <div class="project-gallery">
-                <div class="project">
+            <div class="project-gallery slideshow-container"> <!-- Slide show will me make using https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+                
+                <div class="project mySlides">
                     <img src="./Resources/images/Ona Kombucha .jpg" alt="Ona Kombucha website snapshop">
                     <p>Website for fictional Kombucha brand made as part of the Front End Engineer carrer path from CodeCademy</p>
                     <i class="fab fa-html5 logo"></i>
                     <i class="fab fa-css3-alt logo"></i>
 
                 </div>
-                <div class="project">
+                <div class="project mySlides">
                     <img src="./Resources/images/Club Suf Valencia.jpg" alt="Club Surf Valencia website snapshot">
                     <p>Website for VCS made as part of the Front End Engineer carrer path from CodeCademy</p>
                     <i class="fab fa-html5 logo"></i>
                     <i class="fab fa-css3-alt logo"></i>
                 </div>
 
-                <div class="project">
+                <div class="project mySlides">
                     <img src="./Resources/images/Tea Cozy.jpg" alt="Tea Cozy project snapshot">
                     <p>This project is part of the Front End Engineer carrer path from CodeCademy</p>
                     <i class="fab fa-html5 logo"></i>
                     <i class="fab fa-css3-alt logo"></i>
-
                 </div>
+                  <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 
             </div>
+            <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+            
         </div>
 
         <div id="skills" class="block">
