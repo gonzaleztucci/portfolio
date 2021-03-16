@@ -76,13 +76,8 @@ p {
 .items-menu {
     display: inline-flex;
     align-self: center;
-    /* border: 1px red solid; */
     margin-right: 5rem;
 }
-
-/* .items-menu li{
-    display: inline;
-} */
 
 nav a{
 
@@ -405,11 +400,14 @@ footer p{
         / auto;
     }
 
+
+
     .bio {
         grid-area: text;
         justify-self: center;
         margin: 30px;
         padding: 30px;
+        max-width: 100%;
 
     }
 
