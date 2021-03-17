@@ -414,7 +414,7 @@ footer p{
     .bio {
         grid-area: text;
         justify-self: center;
-        margin: 30px;
+        /* margin: 30px; */
         padding: 30px;
         width: 75%;
 
