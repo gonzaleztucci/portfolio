@@ -133,6 +133,7 @@ main {
 .about-me{
     display: flex;
     align-items: center;
+    justify-items:center;
 }
 
 .bio {
@@ -401,6 +402,7 @@ footer p{
         grid-template: [row1-start] "picture" 50% [row1-end]
                         [row2-start] "text" 50%[row2-end]
         / auto;
+        align-items: center;
     }
 
 
