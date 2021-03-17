@@ -415,8 +415,9 @@ footer p{
         grid-area: text;
         justify-self: center;
         /* margin: 30px; */
-        padding: 30px;
+        /* padding: 30px; */
         width: 75%;
+        border: 1px solid red;
 
     }
 
@@ -428,6 +429,7 @@ footer p{
         justify-self: center;
         grid-area: picture;
         width: 50%;
+        border: 1px solid red;
     }
 
 
