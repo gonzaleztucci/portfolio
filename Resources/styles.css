@@ -402,7 +402,8 @@ footer p{
         display: grid; /*Changing layout to grid to bring picture to the top*/
         grid-template: [row1-start] "picture" 50% [row1-end]
                         [row2-start] "text" 50%[row2-end]
-        / auto;
+        / 100%;
+
         align-items: center;
     }
 
@@ -415,7 +416,7 @@ footer p{
         justify-self: center;
         margin: 30px;
         padding: 30px;
-        max-width: 100%;
+        width: 75%;
 
     }
 
@@ -425,7 +426,6 @@ footer p{
 
     .profile-pic{
         justify-self: center;
-        margin: 30px;
         grid-area: picture;
         width: 50%;
     }
