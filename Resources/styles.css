@@ -16,6 +16,7 @@ Colors:
 html{
     height: 100%;
     width: 100%;
+    
 }
 
 body {
@@ -26,6 +27,7 @@ body {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    
 }
 
 
@@ -147,7 +149,7 @@ main {
     object-fit: contain;
     margin: 3rem 6rem 3rem 3rem;
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) /*, 0 6px 20px 0 rgba(0, 0, 0, 0.19)*/;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* PROJECTS */
@@ -294,7 +296,7 @@ main {
     height: auto;
     overflow: hidden;
     margin: 15px;
-    flex: 1 1 200px;
+    /* flex: 1 1 100px; */
 
 }
 
@@ -312,11 +314,7 @@ main {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-.project i {
-    margin-top: 15px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
+
 
 
 /* SKILLS */
@@ -329,10 +327,15 @@ main {
 .skills{
 
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     margin: 3rem 25% 3rem 25%
 
+}
+
+.contactButton {
+    display: none;
 }
 
 /* FOOTER */
@@ -375,7 +378,7 @@ footer p{
     }
 
     .items-menu{
-        display: flex;
+        display: none;
         flex-direction: column;
         align-items: center;
         width: 100%;
@@ -402,6 +405,8 @@ footer p{
 
 
 
+
+
     .bio {
         grid-area: text;
         justify-self: center;
@@ -411,11 +416,32 @@ footer p{
 
     }
 
+    .bio p {
+        font-size: 1.2rem;
+    }
+
     .profile-pic{
         justify-self: center;
         margin: 30px;
         grid-area: picture;
         width: 50%;
+    }
+
+
+    .contactButton{
+        width: 50%;
+        display:block;
+        font-size: 1.5rem;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        justify-items: center;
+        border-radius: 3px;
+        border: 2px solid #2b6d8a ;
+        background-color: #41A2CC;
+        color: white;
+        margin: 30px auto;
+        padding: 15px;
     }
 
 
