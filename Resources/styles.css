@@ -52,7 +52,7 @@ h1 {
 h2{
     font-size: 2.441em;
     width: 100%;
-    margin:2rem auto;
+    margin:3rem auto;
     text-align: center;
     color: #383F42;
 }
@@ -307,6 +307,8 @@ main {
 .logo {
     font-size: 40px; /* To have bigger logos for the skills and technologies*/
     color: #383F42;
+    margin: 5px;
+    
 }
 
 .skills{
@@ -407,11 +409,6 @@ footer p{
         width: 50%;
         margin: 0;
         margin-bottom: 2.5rem;
-    }
-
-    h2{
-        width: 100%;
-        text-align: center;
     }
 
 
