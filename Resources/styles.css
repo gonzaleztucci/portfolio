@@ -155,19 +155,6 @@ main {
 
 /* PROJECTS */
 
-/* .project-gallery{
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: space-evenly;
-    flex-wrap: wrap;
-    width: 95%;
-    margin: 3rem auto 3rem auto;
-    padding: 2rem;
-
-} */
-
 /* CODE BASED ON https://www.w3schools.com/howto/howto_js_slideshow.asp */
 
 /* Slideshow container */
@@ -204,7 +191,6 @@ main {
     transition: 0.6s ease;
     border-radius: 3px;
     user-select: none;
-    /* background-color: rgba(0,0,0,0.3); */
   }
 
   /* Position the "next button" to the right */
@@ -286,10 +272,6 @@ main {
   /* SLIDE SHOW IS UP TO HERE */
 
 .project{
-    /* display: flex;
-    flex-direction: column;
-    align-content: flex-start; */
-
     border: 1px solid #A3B8C2;
     border-radius: 3px;
     padding: 1.5rem;
@@ -297,7 +279,7 @@ main {
     height: auto;
     overflow: hidden;
     margin: 15px;
-    /* flex: 1 1 100px; */
+    
 
 }
 
@@ -373,6 +355,7 @@ footer p{
     /* HEADER */
     header{
         flex-direction: column;
+        justify-content: space-between;
     }
 
     h1{
@@ -447,6 +430,12 @@ footer p{
         color: white;
         margin: 30px auto;
         padding: 15px;
+        transition: all 0.3s;
+
+    }
+    .contactButton:hover{
+        background-color: #347d9c;
+
     }
 
 
