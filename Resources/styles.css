@@ -82,20 +82,21 @@ p {
 
 nav a{
 
-    color: #003247;
+    color: #41A2CC;
     text-decoration: none;
     margin: 1.5em;
     transition: all 0.5s ease;
+    font-family: 'Slabo 13px', serif;
 
 
 }
 
 nav a:visited {
-    color: #41A2CC;
+    color: #3587aa;
 }
 
 nav a:hover{
-    color: #A3B8C2;
+    color: white;
     text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.19);
 }
 
@@ -134,6 +135,7 @@ main {
     display: flex;
     align-items: center;
     justify-items:center;
+    width: 100% ;
 }
 
 .bio {
@@ -334,7 +336,7 @@ footer{
 
 footer p{
 
-    font-family: 'Bree Serif', serif;
+    font-family: 'Lato', sans-serif;
     text-align: center;
     color: white;
     padding: 10px;
@@ -364,20 +366,9 @@ footer p{
 
     .items-menu{
         display: none;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
+
     }
 
-    nav a{
-
-        color: #003247;
-        text-transform: uppercase;
-        font-size: 1.8rem;
-        text-decoration: none;
-        margin: 1.5em;
-        text-align: center;
-    }
 
     /* ABOUT ME */
 
@@ -411,8 +402,16 @@ footer p{
 
     .profile-pic{
         justify-self: center;
+        align-self: center;
         grid-area: picture;
         width: 50%;
+        margin: 0;
+        margin-bottom: 2.5rem;
+    }
+
+    h2{
+        width: 100%;
+        text-align: center;
     }
 
 
