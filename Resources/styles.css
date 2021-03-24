@@ -438,6 +438,13 @@ footer p{
 
   }
 
+  @media (max-width: 995px){
+    .items-menu {
+        margin-top: 1rem;
+    }
+
+  }
+
 
 
 
